@@ -1,4 +1,4 @@
-const galleryItems = [
+export default [
   {
     preview:
       'https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825__340.jpg',
@@ -62,5 +62,20 @@ const galleryItems = [
       'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg',
     description: 'Lighthouse Coast Sea',
   },
+  {
+    preview: 'https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079__340.jpg',
+    original: 'https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg',
+    description: 'tree, clouds, fields',
+  },
+  {
+    preview: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
+    original: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg',
+    description: 'tree, sunset, clouds',
+  },
+  {
+    preview: 'https://cdn.pixabay.com/photo/2018/04/16/16/16/sunset-3325080__340.jpg',
+    original: 'https://cdn.pixabay.com/photo/2018/04/16/16/16/sunset-3325080_1280.jpg',
+    description: 'sunset, dawn, nature',
+  },
 ];
-export default galleryItems;
+// export default galleryItems;
